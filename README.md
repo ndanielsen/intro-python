@@ -6,9 +6,7 @@ Socal Code Camp
 
 ## Set Up
 
-Please down this simple Python editor for beginner programmers.
-
-[https://codewith.mu/](https://codewith.mu/)
+Please download and install [Mu, a simple Python editor, for beginner programmers](https://codewith.mu/)
 
 [Recommended: Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
 
