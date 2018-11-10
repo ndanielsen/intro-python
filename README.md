@@ -10,7 +10,7 @@ Please down this simple Python editor for beginner programmers.
 
 [https://codewith.mu/](https://codewith.mu/)
 
-[Recommended: Getting Starting with Mu] (https://codewith.mu/en/tutorials/1.0/start)
+[Recommended: Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
 
 ## Why It's Great to Learn Python
 
