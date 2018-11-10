@@ -4,6 +4,8 @@ Socal Code Camp
 
 11:15 AM - Saturday, November 10, 2018
 
+Code Repo: https://github.com/ndanielsen/socal-code-camp-python
+
 ## Set Up
 
 Please download and install [Mu, a simple Python editor, for beginner programmers](https://codewith.mu/)
