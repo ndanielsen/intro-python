@@ -20,7 +20,7 @@ A high emphasis is placed on working with other students to debug and troublesho
 
 Please download and install [Mu, a simple Python editor, for beginner programmers](https://codewith.mu/)
 
-[Recommended Reading: Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
+Recommended Reading: [Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
 
 Create a github account at https://github.com/
 
