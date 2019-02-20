@@ -33,3 +33,11 @@ Create a github account at https://github.com/
 :snake: It's everywhere. It's a powerful language that is used by a wide variety of companies and organizations to solve all sorts of problems.
 
 :snake: It's community-focused. Python exists solely because of volunteers and has a great community both online and off that connects people.
+
+## Recommended Resources for Your Python Journey After Mu
+
+[Automate the Boring Stuff](https://automatetheboringstuff.com/)
+Learn python through small practical projects that might reduce the tedium in your job! (Highly recommended)
+
+[How to Think Like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+An equally good book and allows you to use python right in your browser.
