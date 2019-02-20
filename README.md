@@ -8,11 +8,12 @@ Author : Nathan Danielsen [@nate_somewhere](https://twitter.com/nate_somewhere)
 Have you been curious about writing code? Have you tried to get started but just couldn't get things to work? Have you heard that python is a great language to learn but not sure where to start? These workshops got you covered.  
 
 In this workshop, we will:
-- Get you set up for success and continued learning after class
-- Variables, common data types, functions and for-loops
+- Get you set up for success and continued learning afterwards
+- Introduce common python syntax including variables, data types, functions and for-loops
 - Demonstrate common operations for cleaning and parsing data
 
-Each workshop will conclude with a real work type exercise that will apply the materials covered in the workshop.
+Each workshop will conclude with a real work type exercises and homework that will apply the materials covered in the workshop.
+
 
 ## Set Up Before Workshop
 
