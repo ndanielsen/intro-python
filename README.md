@@ -1,4 +1,4 @@
-# Introduction to Python for Fun and Profit
+# Introduction to Programming with Python for Fun and Profit
 ## A Workshop to Get You Started Doing Great Things
 
 Author : Nathan Danielsen [@nate_somewhere](https://twitter.com/nate_somewhere)
@@ -7,26 +7,20 @@ Author : Nathan Danielsen [@nate_somewhere](https://twitter.com/nate_somewhere)
 
 Have you been curious about writing code? Have you tried to get started but just couldn't get things to work? Have you heard that python is a great language to learn but not sure where to start? These workshops got you covered.  
 
-In this workshop, we will cover:
-- Getting you set up for success and continued learning after class
-- How to use git to version control your work
-- What is github and why is it helpful for collaborating on teams
+In this workshop, we will:
+- Get you set up for success and continued learning after class
+- Variables, common data types, functions and for-loops
+- Demonstrate common operations for cleaning and parsing data
 
-We will start with the basics of how to use the commandline to navigate around the folders on your computer, create files, carefully remove files, move / copy files and compress / zip them.
-
-In the git section, we will learn the basics of using git for version control to save your work and rescue you when you manage to break something.
-
-As for github, we will introduce you to the purpose of github and demonstrate why is it incredibly popular for the software development community. In this section, we will show you how to copy project repositories to your local computer and how to use the commandline to push up your saved work to your public project.
-
-
+Each workshop will conclude with a real work type exercise that will apply the materials covered in the workshop.
 
 ## Set Up Before Workshop
 
 Please download and install [Mu, a simple Python editor, for beginner programmers](https://codewith.mu/)
 
-[Recommended: Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
+[Recommended Reading: Getting Starting with Mu](https://codewith.mu/en/tutorials/1.0/start)
 
-- Create a github account at https://github.com/
+Create a github account at https://github.com/
 
 
 
