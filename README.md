@@ -12,11 +12,9 @@ In these workshops, we will:
 - Introduce basic python syntax including variables, data types, functions and for-loops
 - Demonstrate common operations for cleaning and parsing data
 
-Each workshop will review some basic elements of the python programming language and will deep dive into a particular useful data type or common operation.
+Each workshop will review some basic elements of the python programming language and will deep dive into a particular useful data type or common operation. It will conclude with a real world type exercises and homework to will apply the materials covered in the workshop.
 
-Each workshop will conclude with a real world type exercises and homework to will apply the materials covered in the workshop.
-
-A particular emphasis on working with other students to debug and troubleshoot your code will be highly encouraged! It's the best way to learn!
+A high emphasis is placed on working with other students to debug and troubleshoot your code. It's the best way to learn!
 
 ## Set Up Before Workshop
 
