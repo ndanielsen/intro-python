@@ -33,6 +33,25 @@ else:   #implicity means else if temperature >=212
     print("water will boil")
 
 
+## LIST COMPREHENSIONS WITH CONDITIONS
+
+nums = range(1, 6)
+
+# for loop to create a list of cubes of even numbers
+cubes_of_even = []
+for num in nums:
+    if num % 2 == 0:
+        cubes_of_even.append(num**3)
+
+# equivalent list comprehension
+# syntax: [expression for variable in iterable if condition]
+
+cubes_of_even = [ num**3 
+                    for num in nums 
+                        if num % 2 == 0
+                    ]    # [8, 64]
+
+
 #########
 # EXERCISE For Loops
 #########
@@ -46,3 +65,5 @@ else:   #implicity means else if temperature >=212
 
 # Given that: nums = [0, 1, 3, 4, 5]
 # Write a for-loop that prints out even numbers
+
+
