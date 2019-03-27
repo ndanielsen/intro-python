@@ -34,8 +34,9 @@ else:  # implicity means else if temperature >=212
 
 
 ## LIST COMPREHENSIONS WITH CONDITIONS
+# range when passed to a list, produces a range of numbers
 
-nums = range(1, 6)
+nums = list(range(1, 6))
 
 # for loop to create a list of cubes of even numbers
 cubes_of_even = []
