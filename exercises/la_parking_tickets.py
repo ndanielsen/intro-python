@@ -11,6 +11,9 @@
     The dataset downloaded has 9.5 million plus rows 
     and takes several minutes to download.
 
+    By default, a smaller dataset is in the exercises/data folder that you should
+    use for development until you are ready to run the whole batch.
+
     Class notes:
 
     Python3 required, python2 not guaranteed to work completely

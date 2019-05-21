@@ -20,15 +20,18 @@ s[6:]  # returns 'you'
 s[-1]  # returns 'u'
 
 
-# EXERCISE: Extract State from Addresses (Part 1)
-# 1) Extract the state abbreviation from the string
-# 2) Save each state abbreviation to a variable (ie state_one)
-# Hint: {City}, {State Abbrev} {ZipCode}
+# EXERCISE: 
+# 1) Extract the year, month, day from the time stamps
+# 2) Save each year, month and date as year_1, month_1, day_1
+# Hint: yyyy-MM-dd hh:mm:ss
 
-address_1 = "Austin, TX 78701"
-address_2 = "Washington, DC 20001"
-address_3 = "North Hollywood, CA 91601"
+time_stamp_1 = "2011-10-02 18:48:05"
+time_stamp_2 = "1973-12-12 08:28:08"
+time_stamp_3 = "1999-11-06 14:12:13"
 
+
+# HOMEWORK
+# Look up datetime.strptime on google to learn more about datetime parsing
 
 # STRINGS - Part II
 

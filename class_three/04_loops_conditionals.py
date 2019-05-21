@@ -61,6 +61,6 @@ cubes_of_even = [num ** 3 for num in nums if num % 2 == 0]  # [8, 64]
 # Write a for-loop that sums the total of all the numbers in the list
 
 
-# Given that: nums = [0, 1, 3, 4, 5]
+# Given that: array = [{"num": 1}, {"num": 4}, {"num" : 7}]
 # Write a for-loop that prints out even numbers
 
