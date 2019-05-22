@@ -1,9 +1,7 @@
 # STRINGS
 # https://docs.python.org/3/tutorial/introduction.html#strings
 
-s = str(42)
-
-s  # convert another data type into a string (casting)
+s = str(42) # convert another data type into a string (casting)
 
 s = 'I like you'
 
