@@ -44,12 +44,18 @@ family['size'] = family['size'] + 1
 family['size'] += 1
 
 # EXERCISE:
+#
 # Given that: d = {'a':10, 'b':20, 'c':[30, 40]}
+# 1) Print the value for 'a'
+# 2) Change the value for 'b' to be 25
+# 3) Change the 30 to be 35
+# 4) Append 45 to the end of the list that contains 35 and 40. Hint: google 'python list append'
 
-# First, print the value for 'a'
+# APPLIED EXERCISE:
+#
+# Given that: citation = {'Violation Description': 'PREF PARKING', 'Latitude': '6431087.4', 'Longitude': '1837179.4'}
+#
+# 1) Check if the "Violation Description" is equal to "PREF PARKING".
+# 2) Given that Latitude = y and Longitude = x, can you assign x and y variables to their corresponding value in the citation.
+# Note: the lat and lon are in US Feet coordinates
 
-# Then, change the value for 'b' to be 25
-
-# Then, change the 30 to be 35
-
-# Finally, append 45 to the end of the list that contains 35 and 40

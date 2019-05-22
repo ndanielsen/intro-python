@@ -13,7 +13,7 @@ len(s)  # returns 10
 # string slicing like lists
 s[0:7]  # returns 'I like '
 
-s[6:]  # returns 'you'
+s[6:]  # returns ' you'
 
 s[-1]  # returns 'u'
 
@@ -28,8 +28,11 @@ time_stamp_2 = "1973-12-12 08:28:08"
 time_stamp_3 = "1999-11-06 14:12:13"
 
 
-# HOMEWORK
-# Look up datetime.strptime on google to learn more about datetime parsing
+# ADVANCED EXERCISE
+# 1) Look up datetime.strptime on google to learn more about datetime parsing
+# 2) Can you parse the time_stamps into datetime objects?
+# Hint: str_format = '%Y-%m-%d %H:%M:%S and you need to `import datetime`
+
 
 # STRINGS - Part II
 

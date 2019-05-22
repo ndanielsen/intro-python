@@ -1,6 +1,8 @@
 """
     "Exploring Los Angeles Parking Citations Data"
 
+    Starter code for exploring parking citations.
+
     Data source: City of Los Angeles Open Data Portal
     https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np
 
@@ -11,7 +13,7 @@
     The dataset downloaded has 9.5 million plus rows 
     and takes several minutes to download.
 
-    By default, a smaller dataset is in the exercises/data folder that you should
+    By default, a smaller 500k row dataset is in the exercises/data folder that you should
     use for development until you are ready to run the whole batch.
 
     Class notes:
@@ -24,6 +26,8 @@
 # EXERCISE
 
 # Calculate the total fines for each type of citation in January 2019.
+# Modify "calculate_total_fine_by_citation()" to do this
+# NOTE: The data is missing values and will require some wrangling. Good luck!
 
 
 import csv
@@ -68,12 +72,12 @@ def filter_by_date_range(citation_row, start, end):
 
     Returns True or False if date falls in the range.
 
-    # TODO - What is a function keyword arguments?
+    # STUDYPOINT - What is a function keyword arguments?
     """
     # HINT - corresponds to "10/31/2018" format
     date_format = "%m/%d/%Y"
 
-    # TODO - What is strptime doing?
+    # STUDYPOINT - What is strptime doing?
     date_start = datetime.strptime(start, date_format)
     date_end = datetime.strptime(end, date_format)
 
@@ -87,18 +91,23 @@ def filter_by_date_range(citation_row, start, end):
         else:
             return False
     except: 
-        # TODO - What is try-except in python?
+        # STUDYPOINT - What is try-except in python?
         # Why is this necessary here?
         return False
 
-def calculate_total_fine_by_citation(file_data, start="12/1/2015", end="12/31/2015"):
+def calculate_total_fine_by_citation(file_data, start_date, end_date):
+    """Totals the fine by citation given a start date and end date.
 
-    # Store the fine amount format - key: violation description & value: fine_amount
+
+    Returns a dictionary.
+    """
+
+    # NOTE: Will contains the data in this key:value format- {violation_description : fine_amount} 
     total_fine_by_citation = {}
 
-    # HINT - citation_row is a dictionary
+    # NOTE - citation_row is a type of dictionary
     for citation_row in file_data:
-        if filter_by_date_range(citation_row, start, end) is True:
+        if filter_by_date_range(citation_row, start_date, end_date) is True:
             violation_desciption = citation_row["Violation Description"]
 
             # TODO - Get the fine amount from the citation row and add it to the total
@@ -108,7 +117,7 @@ def calculate_total_fine_by_citation(file_data, start="12/1/2015", end="12/31/20
             # If the violation_desciption doesn't exist, then add it
             if total_fine_by_citation.get(violation_desciption) is True:
 
-                # TODO - What is this doing here?
+                # STUDYPOINT - What is this doing here?
                 total_fine_by_citation[violation_desciption] += fine_amount
             else:
                 total_fine_by_citation[violation_desciption] = fine_amount    
@@ -119,7 +128,7 @@ if __name__ == "__main__":
     url = "https://data.lacity.org/api/views/wjz9-h9np/rows.csv?accessType=DOWNLOAD"
     
 
-    # this is a smaller, faster, abbreviated data set you can develop with
+    # NOTE: this is a smaller, faster, abbreviated data set with 500k rows you can develop with
     data_file_path = os.path.join(CURRENT_DIR_PATH, "data/la_parking_citations_abbr.csv")
 
     ### UNCOMMENT THIS TO DOWNLOAD FULL DATASET ###
@@ -133,7 +142,7 @@ if __name__ == "__main__":
     start_date = "3/1/2019"
     end_date = "3/31/2019"
 
-    total_fine_by_citation = calculate_total_fine_by_citation(file_data, start=start_date, end=end_date)
+    total_fine_by_citation = calculate_total_fine_by_citation(file_data, start_date, end_date)
 
     print(total_fine_by_citation)
 
@@ -141,7 +150,7 @@ if __name__ == "__main__":
 # 
 # - Can you create another function named `count_by_citation` that simply counts the number of
 #     citations by type for Jan 1 to Jan 31, 2019?
-# - What other intersting attributes that you count?
+# - What are some other intersting attributes of the dataset that you can count?
 # 
 # ADVANCED EXTRA CREDIT
 # 
