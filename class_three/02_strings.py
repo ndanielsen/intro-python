@@ -48,8 +48,10 @@ s.split()           # same thing
 
 # another example: split a string into a list of substrings separated by a delimiter
 address = 'Toluca Lake, CA 91602'
-address.split(',')        # returns ['Toluca Lake','CA','91602']
-address.split()           # same thing
+address.split(',')        # returns ['Toluca Lake','CA 91602']
+address.split()           # returns ['Toluca', 'Lake,', 'CA', '91602']
+
+
 
 
 ## Learn more with Automate the Boring Stuff:
