@@ -37,14 +37,11 @@ family['kids'][0]   # returns 'bart'
 
 # EXERCISE:
 # Given that: d = {'a':10, 'b':20, 'c':[30, 40]}
-d = {'a':10, 'b':20, 'c':[30, 40]}
+
 # First, print the value for 'a'
-d['a']
+
 # Then, change the value for 'b' to be 25
-d["b"] = 25
+
 # Then, change the 30 to be 35
 
-d['c'][0] = 35
 # Finally, append 45 to the end of the list that contains 35 and 40
-d['c'].append(45)
-print(d)

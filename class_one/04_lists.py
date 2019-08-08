@@ -28,9 +28,19 @@ days_list.append('sun')
 # Exercise - Lists
 #########
 
-# How do I slice out 'wed'?
+# How do I select 'wed' by index?
+
+
 # How do I check the type of 'mon'?
+
+
 # How do I slice out 'wed' through 'friday'?
-# What are two ways to slice out 'fri'?
+
+
+# What are two ways to select 'fri' by index?
+
+
 # What is the length of days and days_list?
+
+
 # How do I reverse the order of days? (hint: google it)

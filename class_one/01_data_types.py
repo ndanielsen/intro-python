@@ -6,6 +6,7 @@
 # print('hello world')
 #
 # # Comments in python use a '#'
+# # Remove the # in front of code to run it
 
 ## WARM UP QUIZ
 
@@ -31,7 +32,7 @@ d = b / 2
 # EXERCISES
 
 e = [a, b]
-f = range(0, 10)
+f = list(range(0, 10))
 
 # What is type(e)?
 
@@ -45,7 +46,8 @@ f = range(0, 10)
 # What are the contents of f?
 
 
-# What is 'range' called?
+# What is 'list' called? # hint: google it
 
 
-# How do I get help on 'range'?
+# What is 'range' called? What happens when you run 'help(range)'?
+
