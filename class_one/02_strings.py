@@ -19,6 +19,9 @@ s[6:]  # returns 'you'
 
 s[-1]  # returns 'u'
 
+# Use the 'repr()'
+# repr() is string representation
+repr(s[0:7])
 
 # EXERCISE: Book Titles (Part 1)
 # 1) Extract the book title from the string
